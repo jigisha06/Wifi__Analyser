@@ -3,8 +3,7 @@
 // Uses axios — auto-attaches JWT token from localStorage to every request.
 
 import axios from 'axios'
-
-const api = axios.create({ baseURL: 'https://wifi-detector-newtry.onrender.com' })
+const api = axios.create({ baseURL: 'https://wifi-backend-tjks.onrender.com' })
 
 // Attach token automatically to every request
 api.interceptors.request.use(cfg => {
